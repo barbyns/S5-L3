@@ -109,6 +109,7 @@ h1, h2 {
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+    margin: 5%;
 }
 
 .product button:hover {
