@@ -1,0 +1,165 @@
+/* Generale */ 
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff7dc;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+/* Sidebar */
+.sidebar {
+    background-color: #ffeb99;
+    width: 250px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 30px 30px 0;
+}
+
+.sidebar button {
+    width: 200px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffcc66;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8b4513;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sidebar button:hover {
+    background-color: #ffb84d;
+}
+
+/* Logo */
+.shop-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.shop-button img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+/* Titoli */
+h1, h2 {
+    font-size: 2.5rem;
+    color: #8b4513;
+    font-weight: bold;
+}
+
+/* Sezione Prodotti */
+.products {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.product {
+    background-color: #fff3cc;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+.product span {
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: block;
+    color: #8b4513;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #6b4226;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8b4513;
+}
+
+/* Pulsante "Add to Cart" */
+.product button {
+    background-color: #ffcc66;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product button:hover {
+    background-color: #ffb84d;
+}
+
+/* Sezione Novità */
+.news {
+    background-color: #fff3cc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.news p {
+    font-size: 1rem;
+    color: #6b4226;
+    line-height: 1.6;
+}
+@media screen and (min-width: 800px) {
+    header {
+      padding: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 1199px) {
+    header .product img {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    header {
+      text-align: left;
+    }
+    header header .product img {
+      display: inline-block;
+    }
+  
+    header .product img {
+      width: 75%;
+    }
+    header .product img{
+      vertical-align: middle;
+    }
+    header .product img {
+      margin-bottom: 0;
+    }
+}
